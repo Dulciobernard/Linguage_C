@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
 4) Escreva um programa que leia um valor de despesa de restaurante, 
- e o número de pessoas para dividir a conta. Imprima o valor que cada um deve pagar. 
+e o número de pessoas para dividir a conta. Imprima o valor que cada um deve pagar. 
 Assuma que a conta será dividida igualmente
 */
 

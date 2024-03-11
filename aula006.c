@@ -8,7 +8,7 @@ int main()
     scanf("%d",&n1);
     printf("\nDigite outro numero:");
     scanf("%d",&n2);
-     dif=n1-n2;
+    dif=n1-n2;
     if (n1>n2)
     {
         maior=n1;
@@ -20,11 +20,4 @@ int main()
     printf("Maior:%d\n",maior);
     printf("Menor:%d\n",menor);
     printf("A direnca entre %d e %d e:%d",n1,n2,dif);
-    
-
-    
-
-    
-        
-
     }
