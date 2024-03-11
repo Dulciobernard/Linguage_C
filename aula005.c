@@ -10,7 +10,7 @@ int main(){
     subtr=n1-n2;
     mult=n1*n2;
     divi=n1/n2;
-
+    
     printf("Resultados\n");
     printf("Soma:%d\n",soma);
     printf("subtracao:%d\n",subtr);
