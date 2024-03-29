@@ -8,9 +8,15 @@ sabendo que o carro custa R$90 por dia e R$0,20 por Km rodado.
 */
 
 int main(){
-    float quatidadedekmpercorridos,quantidadededias;
+    int quantidadededias;
+    float quatidadedekmpercorridos,preco_total,custodocarropordia,custoporkm;
+    printf("Digite a quantidade de dias pelos quais ele foi alugado");
+    scanf("%d",&quantidadededias);
     printf("Digite a quantidade de Km percorridos");
     scanf("%f",&quatidadedekmpercorridos);
-    printf("Digite a quantidade de dias pelos quais ele foi alugado");
-    scanf("%f",&quantidadededias);
+    custodocarropordia=90.0;
+    custoporkm=0.20;
+    preco_total=(quatidadedekmpercorridos*custoporkm)+(quantidadededias*custodocarropordia);
+
+    printf("O valor a ser pago sera:R$%.2f",preco_total);
 }
