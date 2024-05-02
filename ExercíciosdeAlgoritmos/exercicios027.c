@@ -16,7 +16,7 @@ int main(){
    if (media < 4.9)
    {
     printf("O aluno foi reprovado com a media :%f",media);
-   }if else(media >= 5.0 && media < 6.9){
+   }else if (media >= 5.0 && media < 6.9){
       printf("O aluno foi ao recurso com a media :%f",media);
    }else{
       printf("O aluno Aprovado com a media :%f",media);
